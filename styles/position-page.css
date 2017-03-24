@@ -8,26 +8,45 @@ nav {
 	height: 50px;
 }
 
-img {
+.logo {
 	width: 50px;
 	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
 }
 
 li {
 	display: inline;
 	list-style-type: none;
+	position: relative;
+	bottom: 50px;
+	left: 15px;
 }
 
 .cat {
-	width: 800px;
-	height: 200px;
 	position:relative;
+	left: 350px;
+	top: 100px;
+}
+
+.dog {
+	position: relative;
+	left: 900px;
+	top: 200px;
 }
 
 .box {
-	border: 2px dashed green;
+	border: 5px dotted green;
 	width: 600px;
 	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
-	text-align: center;
+	bottom: 250px;
+}
+
+.background {
+	position: fixed;
+	width: 150%;
+	top: 50px;
 }

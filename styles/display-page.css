@@ -13,17 +13,14 @@
 
 .grey.box {
 	background-color: grey;
-	float: left;
 }
 
 .black.box {
 	background-color: black;
-	text-align: center;
 }
 
 .orange.box {
 	background-color: orange;
-	float: right;
 }
 
 .rectangle {
@@ -36,12 +33,21 @@
 .box {
 	display: inline-block;
 	height: 300px;
-	width: 33.33%;
-	font-size: 0;
+	width: 30%;
+	
 }
+
+.rectangle, .box {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
 body {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 60px;
+	font-size: 0;
 }
