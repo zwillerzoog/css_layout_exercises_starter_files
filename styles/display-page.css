@@ -1,0 +1,47 @@
+.rectangle, .box {
+	border: 1px solid black;
+}
+.rectangle.green {
+	background-color: green;
+	float: left;
+}
+
+.blue.rectangle {
+	background-color: blue;
+	float: right;
+}
+
+.grey.box {
+	background-color: grey;
+	float: left;
+}
+
+.black.box {
+	background-color: black;
+	text-align: center;
+}
+
+.orange.box {
+	background-color: orange;
+	float: right;
+}
+
+.rectangle {
+	display: inline-block;
+	width: 50%;
+	font-size: 0;
+	height: 200px;
+}
+
+.box {
+	display: inline-block;
+	height: 300px;
+	width: 33.33%;
+	font-size: 0;
+}
+body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
